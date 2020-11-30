@@ -178,3 +178,17 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 992px) {
+    .imagen {
+        /* position: relative; */
+        /* top: 0; */
+        /* width: 100%; */
+        /* height: auto; */
+        background-image: url('https://i.imgur.com/tPqrB0g.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-position: 50%;
+    }
+}
