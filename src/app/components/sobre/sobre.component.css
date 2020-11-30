@@ -197,7 +197,7 @@ flex-direction: row-reverse;
 
 .flex:first-of-type div:first-child {
     border-radius: 20px;
-    background-image: url("https://i.imgur.com/UxrthRw.jpg");
+    background-image: url("http://www.banysvellsdebanyoles.com/wp-content/uploads/2020/05/banys_vells_banyoles_nit-1536x1024.jpg");
 }
 
 .flex div:last-child {
@@ -242,6 +242,7 @@ flex-direction: row-reverse;
     .flex {
         border: 0;
         margin: 0;
+        border-bottom: 2px solid #333;
     }
     .flex div:last-child {
         margin: 1rem;

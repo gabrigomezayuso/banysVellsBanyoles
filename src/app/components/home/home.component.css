@@ -222,18 +222,6 @@ h1 {
     .contentBox h1 {
         font-size: 3rem;
     }
-    .banner {
-        /* position: relative; */
-        /* top: 0; */
-        /* width: 100%; */
-        /* height: auto; */
-        background: url(https://i.imgur.com/mIhc9Mn.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-        background-position: 50%;
-        margin-bottom: 0;
-    }
     .btnD1 {
         border: 2px solid #fff;
         color: #fff;
