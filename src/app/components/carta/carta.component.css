@@ -285,3 +285,14 @@ h1 {
     text-decoration: none;
     background-color: #00a4ff;
 }
+
+.full-width-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
+
+.full-width-image img {
+    width: 100%;
+}
