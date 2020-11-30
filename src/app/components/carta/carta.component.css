@@ -279,13 +279,6 @@ h1 {
     }
 }
 
-.dropdown-item.active,
-.dropdown-item:active {
-    color: #fff;
-    text-decoration: none;
-    background-color: #00a4ff;
-}
-
 .full-width-image {
     width: 100vw;
     position: relative;
@@ -295,4 +288,9 @@ h1 {
 
 .full-width-image img {
     width: 100%;
+}
+
+.nav-link {
+    background: transparent;
+    border: transparent;
 }
