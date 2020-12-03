@@ -4,10 +4,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 header {
     position: relative;
     z-index: 10000;

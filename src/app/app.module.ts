@@ -11,6 +11,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { EntornComponent } from './components/entorn/entorn.component';
 import { ProgramacioComponent } from './components/programacio/programacio.component';
 import { CartaComponent } from './components/carta/carta.component';
+import { ReservesComponent } from './components/reserves/reserves.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CartaComponent } from './components/carta/carta.component';
     SobreComponent,
     EntornComponent,
     ProgramacioComponent,
-    CartaComponent
+    CartaComponent,
+    ReservesComponent
   ],
   imports: [
     BrowserModule,

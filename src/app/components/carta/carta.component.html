@@ -1,3 +1,30 @@
+<div class="color">
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-top-2 fixed-top color">
+        <div class="container">
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <button type="button" name="button" value="cat" (click)="elegirAccion($event)" (click)="scrollTo('cat')" class="nav-link">Català</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" name="button" value="cast" (click)="elegirAccion($event)" (click)="scrollTo('cast')" class="nav-link">Castellano</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" name="button" value="eng" (click)="elegirAccion($event)" (click)="scrollTo('eng')" class="nav-link">English</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" name="button" value="fr" (click)="elegirAccion($event)" (click)="scrollTo('fr')" class="nav-link">Français</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
 <div class="jumbotron jumbotron-fluid height100p banner" id="home">
     <div class="container h100">
         <div class="contentBox h100">
@@ -7,51 +34,28 @@
         </div>
     </div>
 </div>
-<br>
-<br>
 
 
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="navbar-collapse collapse" id="navbar10">
-            <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item">
-                    <button type="button" name="button" value="cat" (click)="elegirAccion($event)" class="nav-link">Català</button>
-                </li>
-                <li class="nav-item">
-                    <button type="button" name="button" value="cast" (click)="elegirAccion($event)" class="nav-link">Castellano</button>
-                </li>
-                <li class="nav-item">
-                    <button type="button" name="button" value="eng" (click)="elegirAccion($event)" class="nav-link">English</button>
-                </li>
-                <li class="nav-item">
-                    <button type="button" name="button" value="fr" (click)="elegirAccion($event)" class="nav-link">Français</button>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="">
-    <div *ngIf="(contenido) === 'cat'">
+<div class="container">
+    <div class="container cat" *ngIf="(contenido) === 'cat'">
         <div class="container full-width-image">
             <img src="http://www.banysvellsdebanyoles.com/wp-content/uploads/2020/11/CARTA_BANYS_CATALA.png" alt="">
         </div>
     </div>
-    <div *ngIf="(contenido) === 'cast'">
+    <div class="container cast" *ngIf="(contenido) === 'cast'">
         <div class="container full-width-image">
             <img src="http://www.banysvellsdebanyoles.com/wp-content/uploads/2020/11/CARTA_BANYS_CASTELL%C3%80.png" alt="">
         </div>
     </div>
-    <div *ngIf="(contenido) === 'eng'">
+    <div class="container eng" *ngIf="(contenido) === 'eng'">
         <div class="container full-width-image">
             <img src="http://www.banysvellsdebanyoles.com/wp-content/uploads/2020/09/CARTA-AGOST-2020-ENG.png" alt="">
         </div>
     </div>
-    <div *ngIf="(contenido) === 'fr'">
+    <div class="container fr" *ngIf="(contenido) === 'fr'">
         <div class="container full-width-image">
             <img src="http://www.banysvellsdebanyoles.com/wp-content/uploads/2020/07/Banys_Vells_Menu_Franc%CC%A7ais_1.jpg" alt="">
         </div>
     </div>
+</div>
+<br>

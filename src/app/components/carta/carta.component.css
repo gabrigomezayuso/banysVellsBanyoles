@@ -219,12 +219,20 @@ h1 {
         background: #fff;
         border-radius: 0;
     }
-    .banner {
-        min-height: 100vh;
-        padding: 100px 0;
-    }
     .contentBox h1 {
         font-size: 3rem;
+    }
+    .banner {
+        /* position: relative; */
+        /* top: 0; */
+        /* width: 100%; */
+        /* height: auto; */
+        background: url(https://i.imgur.com/bmFMLJ1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: 50%;
+        margin-bottom: 0;
     }
     .btnD1 {
         border: 2px solid #fff;
@@ -273,10 +281,16 @@ h1 {
 
 @media (max-width: 600px) {
     .abnner {
-        background-image: url(https://i.imgur.com/bmFMLJ1.jpg);
-        background-size: 20% 20%;
+        background: url(https://i.imgur.com/bmFMLJ1.jpg);
         background-repeat: repeat;
     }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #00a4ff;
 }
 
 .full-width-image {
@@ -293,4 +307,12 @@ h1 {
 .nav-link {
     background: transparent;
     border: transparent;
+}
+
+.fixed-top-2 {
+    margin-top: 86px;
+}
+
+.color {
+    background-color: #00a4ff;
 }
