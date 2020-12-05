@@ -408,16 +408,16 @@ h2 {
 
 .section {
     position: relative;
-    height: 100vh;
+    height: 80vh;
 }
 
 .section .section-center {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 0;
     right: 0;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
 }
 
 #booking {
@@ -607,5 +607,113 @@ h2 {
     }
     .booking-form>form {
         margin-left: 0px;
+    }
+}
+
+.titulo {
+    font-size: 50px;
+    color: #00a4ff;
+}
+
+.card-sobre {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    /* box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.19); */
+    box-shadow: 0px 0px 28px -8px rgba(0, 0, 0, 0.19);
+}
+
+.flex {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+/* optional: alternately flips module layout
+.flex:nth-child(odd) {
+flex-direction: row-reverse;
+}
+*/
+
+.flex div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex div:last-child {
+    border-radius: 20px;
+    background-image: url("https://i.imgur.com/UxrthRw.jpg");
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex div:first-child {
+    margin: 2rem;
+    flex: 0.5;
+}
+
+.flex h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.flex p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.flex p:last-of-type {
+    margin-bottom: 0;
+}
+
+.column {
+    margin: 0 auto;
+}
+
+.texto {
+    border-radius: 20px 0px 0px 20px;
+}
+
+@media all and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 450px) {
+    h2 {
+        margin: 1rem;
+    }
+    .flex {
+        border: 0;
+        margin: 0;
+    }
+    .flex div:last-child {
+        margin: 1rem;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .flex {
+        flex-direction: column;
+    }
+    .flex div:first-child {
+        min-height: 200px;
     }
 }
