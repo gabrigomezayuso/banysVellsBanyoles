@@ -12,6 +12,8 @@ import { EntornComponent } from './components/entorn/entorn.component';
 import { ProgramacioComponent } from './components/programacio/programacio.component';
 import { CartaComponent } from './components/carta/carta.component';
 import { ReservesComponent } from './components/reserves/reserves.component';
+import { ContacteComponent } from './components/contacte/contacte.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { ReservesComponent } from './components/reserves/reserves.component';
     EntornComponent,
     ProgramacioComponent,
     CartaComponent,
-    ReservesComponent
+    ReservesComponent,
+    ContacteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
