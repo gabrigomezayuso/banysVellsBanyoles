@@ -666,7 +666,7 @@ body {
     height: 60px;
     border-radius: 100%;
     display: block;
-    background: linear-gradient(45deg, #00a6ff, #002a8f);
+    background: #00a4ff;
     transition: all 265ms ease-out;
 }
 
@@ -679,9 +679,8 @@ body {
     transform: scale(2.2);
     -ms-transform: scale(2.2);
     -webkit-transform: scale(2.2);
-    color: #00b5f5;
-    background: -webkit-linear-gradient(45deg, #00a6ff, #002a8f);
-    -webkit-background-clip: text;
+    color: #00a4ff;
+    background: #00a4ff;
     -webkit-text-fill-color: transparent;
     transition: all 265ms ease-in;
 }

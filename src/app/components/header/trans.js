@@ -29,3 +29,31 @@ $(document).ready(function() {
         } // End if
     });
 });
+
+
+// $(document).ready(function() {
+//     $("#cookies").addClass("display");
+//     $("#close-cookies").click(function() {
+//         event.preventDefault();
+//         $("#cookies").addClass("close-cookies");
+//     });
+// });
+
+window.addEventListener("load", function() {
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#00a4ff"
+            },
+            "button": {
+                "background": "#fff",
+                "text": "#00a4ff "
+            }
+        },
+        "type": "opt-out",
+        "content": {
+            "message": "Website cookies alert by Cookie Consent",
+            "href": "https://cookieconsent.insites.com"
+        }
+    })
+});

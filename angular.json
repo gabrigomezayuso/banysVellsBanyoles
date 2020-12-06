@@ -13,7 +13,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/banys",
+                        "outputPath": "dist/",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -26,12 +26,14 @@
                         "styles": [
                             "src/styles.css",
                             "node_modules/bootstrap/dist/css/bootstrap.css",
+                            "node_modules/cookieconsent/build/cookieconsent.min.css"
                         ],
                         "scripts": [
                             "node_modules/popper.js/dist/umd/popper.js",
                             "node_modules/jquery/jquery.js",
                             "src/app/components/header/trans.js",
-                            "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+                            "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+                            "node_modules/cookieconsent/build/cookieconsent.min.js"
                         ]
                     },
                     "configurations": {
@@ -90,9 +92,17 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/styles.css"
+                            "src/styles.css",
+                            "node_modules/bootstrap/dist/css/bootstrap.css",
+                            "node_modules/cookieconsent/build/cookieconsent.min.css"
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "node_modules/popper.js/dist/umd/popper.js",
+                            "node_modules/jquery/jquery.js",
+                            "src/app/components/header/trans.js",
+                            "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+                            "node_modules/cookieconsent/build/cookieconsent.min.js"
+                        ]
                     }
                 },
                 "lint": {

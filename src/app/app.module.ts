@@ -15,6 +15,8 @@ import { ReservesComponent } from './components/reserves/reserves.component';
 import { ContacteComponent } from './components/contacte/contacte.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
