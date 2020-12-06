@@ -6,11 +6,19 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     position: relative;
     z-index: 10000;
+}
+
+.pantalla {
+    height: 100vh;
 }
 
 p {
@@ -75,6 +83,10 @@ p {
     margin-bottom: 0;
 }
 
+.banys {
+    border-radius: 20px;
+}
+
 .banner:before {
     content: "";
     position: absolute;
@@ -82,7 +94,11 @@ p {
     left: 0;
     width: 100%;
     height: 400px;
-    background: linear-gradient(#000, transparent);
+    background: linear-gradient(#000, transparent, transparent, transparent);
+}
+
+.color {
+    color: #00a4ff;
 }
 
 .banner:after {
@@ -92,7 +108,7 @@ p {
     left: 0;
     width: 100%;
     height: 400px;
-    background: linear-gradient(360deg, white, transparent);
+    background: linear-gradient(360deg, white, transparent, transparent, transparent);
 }
 
 h1 {
@@ -103,7 +119,7 @@ h1 {
 }
 
 .height100p {
-    height: 100vh;
+    height: 30vh;
 }
 
 .h100 {
@@ -311,8 +327,4 @@ h1 {
 
 .fixed-top-2 {
     margin-top: 86px;
-}
-
-.color {
-    background-color: #00a4ff;
 }
