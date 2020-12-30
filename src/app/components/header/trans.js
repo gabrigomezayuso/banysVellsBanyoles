@@ -51,9 +51,17 @@ window.addEventListener("load", function() {
             }
         },
         "type": "opt-out",
+        onStatusChange: function(status) {
+            console.log(this.hasConsented() ?
+                'enable cookies' : 'disable cookies');
+        },
         "content": {
-            "message": "Website cookies alert by Cookie Consent",
-            "href": "https://cookieconsent.insites.com"
+            "message": "Midnight Barcelona SL utilitza COOKIES per a garantir el correcte funcionament del nostre portal web, millorant la seguretat, per a obtenir una eficàcia i una personalització superiors, per a recollir dades estadístiques i per a mostrar-li publicitat rellevant. Marqui en ACCEPTAR per a autoritzar el seu ús o REBUTJAR per a rebutjar-les. En aquest cas Midnight Barcelona SL no pot garantir la plena funcionalitat de la pàgina.",
+            "href": "#",
+            "allow": 'Acceptar',
+            deny: 'Rebutjar',
+            link: 'Conèixer més'
+
         }
     })
 });
