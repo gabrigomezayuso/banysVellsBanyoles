@@ -14,6 +14,9 @@ import { CartaComponent } from './components/carta/carta.component';
 import { ReservesComponent } from './components/reserves/reserves.component';
 import { ContacteComponent } from './components/contacte/contacte.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PoliticaCookiesComponent } from './components/politica-cookies/politica-cookies.component';
+import { PoliticaPrivacidadComponent } from './components/politica-privacidad/politica-privacidad.component';
+import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
 
 
 
@@ -29,7 +32,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProgramacioComponent,
     CartaComponent,
     ReservesComponent,
-    ContacteComponent
+    ContacteComponent,
+    PoliticaCookiesComponent,
+    PoliticaPrivacidadComponent,
+    AvisoLegalComponent
   ],
   imports: [
     BrowserModule,
