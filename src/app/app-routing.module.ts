@@ -14,8 +14,8 @@ import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.compon
 
 //ASIGNAMOS EL ROUTING
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'home' }, //pagina principal
-  { path: 'home', component: HomeComponent }, //pagina home
+  { path: '', component: HomeComponent}, //pagina principal
+  { path: 'inici', component: HomeComponent }, //pagina home
   // { path: 'eventos', component: EventosComponent }, //eventos
   { path: 'carta', component: CartaComponent }, //carta
   { path: 'contacte', component: ContacteComponent }, //carta
