@@ -12,8 +12,15 @@ body {
 }
 
 footer {
-    background-color: #00476d;
     color: white;
+}
+
+.site-footer {
+    background-color: #0071ad;
+}
+
+.site-footer2 {
+    background-color: #00a4ff;
 }
 
 .site-footer .copyright {
@@ -47,6 +54,41 @@ footer {
 }
 
 .dark .site-footer .social a:hover {
+    border-color: rgba(204, 204, 204, 0.5);
+    color: #ccc;
+}
+
+.site-footer2 .copyright {
+    margin-bottom: 10px;
+}
+
+.site-footer2 .social a {
+    border: 2px solid transparent;
+    border-radius: 20%;
+    color: #fff;
+    /* display: inline-block; */
+    font-size: 15px;
+    height: 34px;
+    line-height: 32px;
+    margin: 0;
+    -webkit-transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
+    vertical-align: top;
+    width: 34px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.site-footer2 .social a:hover {
+    /* border-color: #fff; */
+    color: #00a4ff;
+}
+
+.dark .site-footer2 .social a {
+    color: #fff;
+}
+
+.dark .site-footer2 .social a:hover {
     border-color: rgba(204, 204, 204, 0.5);
     color: #ccc;
 }
