@@ -58,19 +58,6 @@ p {
     font-weight: 600;
 }
 
-.banner {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: auto;
-    background: url(https://i.imgur.com/mIhc9Mn.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    margin-bottom: 0;
-}
-
 .banner:before {
     content: "";
     position: absolute;
@@ -210,6 +197,19 @@ h1 {
     }
 }
 
+.banner {
+    position: relative;
+    top: 0;
+    width: 100%;
+    /* height: auto; */
+    background-image: url(../../../assets/DJI_0147_result.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 0;
+}
+
 @media (max-width: 992px) {
     .navbar-light .navbar-toggler {
         background: #fff;
@@ -223,7 +223,7 @@ h1 {
         /* top: 0; */
         /* width: 100%; */
         /* height: auto; */
-        background: url(https://i.imgur.com/mIhc9Mn.jpg);
+        background-image: url(../../../assets/DJI_0147_result.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
@@ -277,7 +277,7 @@ h1 {
 
 @media (max-width: 600px) {
     .abnner {
-        background-image: url(https://i.imgur.com/mIhc9Mn.jpg);
+        background-image: url(../../../assets/DJI_0147_result.jpg);
         background-repeat: repeat;
     }
 }
